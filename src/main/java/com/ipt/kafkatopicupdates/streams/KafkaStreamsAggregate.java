@@ -1,25 +1,28 @@
 package com.ipt.kafkatopicupdates.streams;
 
 
+import ch.ipt.kafka.avro.Authorization;
+import io.confluent.kafka.streams.serdes.avro.SpecificAvroSerde;
 import org.apache.kafka.common.serialization.Serde;
 import org.apache.kafka.common.serialization.Serdes;
 import org.apache.kafka.streams.StreamsBuilder;
+import org.apache.kafka.streams.kstream.Consumed;
+import org.apache.kafka.streams.kstream.Materialized;
+import org.apache.kafka.streams.kstream.Produced;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 
-//@Component
+@Component
 public class KafkaStreamsAggregate {
 
-    private String sourceTopic = "account";
+    private String sourceTopic = "authorization";
     String sinkTopic = "state-transfer";
 
     private static final Serde<String> STRING_SERDE = Serdes.String();
-/*
-    private static final Serde<Account> ACCOUNT_SERDE = new SpecificAvroSerde<>();
-*/
+    private static final Serde<Authorization> AUTHORIZATION_SERDE = new SpecificAvroSerde<>();
 
 
 
@@ -30,10 +33,11 @@ public class KafkaStreamsAggregate {
     void buildPipeline(StreamsBuilder streamsBuilder) {
 
 
-        /*streamsBuilder.stream(sourceTopic, Consumed.with(STRING_SERDE, ACCOUNT_SERDE))
-                .groupByKey()
+        streamsBuilder.stream(sourceTopic, Consumed.with(STRING_SERDE, AUTHORIZATION_SERDE))
+                .peek(((key, value) -> LOGGER.info("test")));
+                /*.groupByKey()
                 .aggregate(
-                    () -> new Account(),
+                    () -> new Authorization(),
                     (key, value, aggregate) -> {
                         if (value.equals("true")) {
                             Materialized.as("state-store0");
@@ -43,27 +47,7 @@ public class KafkaStreamsAggregate {
                     }
                 )
                 .toStream()
-                .to(sinkTopic, Produced.with(STRING_SERDE, ACCOUNT_SERDE));
-*/
-
-
-
-        // ksql
-//        CREATE stream ACCOUNTS WITH (KAFKA_TOPIC='accounts', VALUE_FORMAT='avro', partitions=1);
-//
-//        CREATE STREAM TRANSACTIONSREKEYED
-//        WITH (PARTITIONS=1) AS
-//        SELECT *
-//                FROM TRANSACTIONS
-//        PARTITION BY accountId;
-//
-//        CREATE TABLE TOTALTRANSACTIONS AS
-//        SELECT a.accountId, SUM(t.amount) AS sum_all_transactions
-//        FROM TRANSACTIONSREKEYED t LEFT OUTER JOIN ACCOUNTS a
-//        WITHIN 7 DAYS
-//        ON t.accountId = a.accountId
-//        GROUP BY a.accountId
-//        EMIT CHANGES;
+                .to(sinkTopic, Produced.with(STRING_SERDE, AUTHORIZATION_SERDE));*/
 
         LOGGER.info(String.valueOf(streamsBuilder.build().describe()));
     }
