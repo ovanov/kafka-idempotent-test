@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  # Business Logic service
+  #------------------------
+  kafka-idempotence:
+    container_name: kafka-poc-client
+    build: ./
+    volumes:
+      - ./:/project
+    networks:
+      - backend
+    restart: unless-stopped
+
+networks:
+  backend:

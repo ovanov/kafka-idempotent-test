@@ -1,6 +1,7 @@
 package com.ipt.kafkatopicupdates.producer;
 
 import ch.ipt.kafka.avro.Authorization;
+import com.google.rpc.context.AttributeContext;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

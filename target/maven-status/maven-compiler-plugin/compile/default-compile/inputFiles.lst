@@ -1,5 +1,6 @@
-/Users/ovanov/Documents/ipt/ucc/kafka-topic-updates/src/main/java/com/ipt/kafkatopicupdates/KafkaTopicUpdatesApplication.java
-/Users/ovanov/Documents/ipt/ucc/kafka-topic-updates/src/main/java/com/ipt/kafkatopicupdates/consumer/KafkaConsumer.java
-/Users/ovanov/Documents/ipt/ucc/kafka-topic-updates/src/main/java/com/ipt/kafkatopicupdates/producer/AccountDataEnum.java
-/Users/ovanov/Documents/ipt/ucc/kafka-topic-updates/target/generated-sources/ch/ipt/kafka/avro/Account.java
-/Users/ovanov/Documents/ipt/ucc/kafka-topic-updates/src/main/java/com/ipt/kafkatopicupdates/producer/AccountAvroProducer.java
+/Users/ovanov/Documents/ipt/ucc/kafka-idempotent-test/src/main/java/com/ipt/kafkatopicupdates/consumer/KafkaConsumer.java
+/Users/ovanov/Documents/ipt/ucc/kafka-idempotent-test/src/main/java/com/ipt/kafkatopicupdates/config/KafkaStreamsDefaultTopology.java
+/Users/ovanov/Documents/ipt/ucc/kafka-idempotent-test/src/main/java/com/ipt/kafkatopicupdates/KafkaTopicUpdatesApplication.java
+/Users/ovanov/Documents/ipt/ucc/kafka-idempotent-test/src/main/java/com/ipt/kafkatopicupdates/producer/AuthorizationAvroProducer.java
+/Users/ovanov/Documents/ipt/ucc/kafka-idempotent-test/target/generated-sources/ch/ipt/kafka/avro/Authorization.java
+/Users/ovanov/Documents/ipt/ucc/kafka-idempotent-test/src/main/java/com/ipt/kafkatopicupdates/streams/KafkaStreamsAggregate.java
