@@ -19,6 +19,6 @@ public class KafkaConsumer {
     public void receiveNewState(ConsumerRecord<String, Authorization> consumerRecord) {
         String key = consumerRecord.key();
         Authorization value = consumerRecord.value();
-        LOGGER.info("received NEW 3DS STATE: key={}, value={}", key, value);
+        LOGGER.info("Received: key={}, value={}", key, value);
     }
 }
