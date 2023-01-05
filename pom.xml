@@ -133,7 +133,7 @@
 						<configuration>
 							<sourceDirectory>${project.basedir}/src/main/resources/avro/</sourceDirectory>
 							<includes>
-								<include>Account.avsc</include>
+								<include>Authorization.avsc</include>
 							</includes>
 							<outputDirectory>${project.build.directory}/generated-sources</outputDirectory>
 						</configuration>

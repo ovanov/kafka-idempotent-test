@@ -1,6 +1,6 @@
 package com.ipt.kafkatopicupdates.config;
 
-import ch.ipt.kafka.avro.Account;
+
 import org.apache.kafka.clients.admin.NewTopic;
 import org.apache.kafka.streams.StreamsBuilder;
 import org.apache.kafka.streams.kstream.KStream;
@@ -19,7 +19,7 @@ import org.springframework.stereotype.Component;
  */
 public class KafkaStreamsDefaultTopology {
 
-    private String sourceTopic = "account";
+    /*private String sourceTopic = "account";
 
     private static final Logger LOGGER = LoggerFactory.getLogger(KafkaStreamsDefaultTopology.class);
 
@@ -37,5 +37,5 @@ public class KafkaStreamsDefaultTopology {
         KStream<String, String> messageStream = streamsBuilder.stream(sourceTopic);
         messageStream.peek((key, payment) -> LOGGER.trace("Message: key={}, value={}", key, payment));
         LOGGER.info("{}", streamsBuilder.build().describe());
-    }
+    }*/
 }

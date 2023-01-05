@@ -1,7 +1,6 @@
 package com.ipt.kafkatopicupdates.consumer;
 
 
-import ch.ipt.kafka.avro.Account;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -23,7 +22,7 @@ public class KafkaConsumer {
         LOGGER.info("received credit message: key={}, value={}", key, value);
     }*/
 
-    @KafkaListener(id = "accounts-consumer",
+   /* @KafkaListener(id = "accounts-consumer",
             topics = "compacted")
     public void receiveAccountMessage(ConsumerRecord<String, String> consumerRecord) {
         String key = consumerRecord.key();
@@ -37,5 +36,5 @@ public class KafkaConsumer {
         String key = consumerRecord.key();
         String value = consumerRecord.value();
         LOGGER.info("received NEW 3DS STATE: key={}, value={}", key, value);
-    }
+    }*/
 }

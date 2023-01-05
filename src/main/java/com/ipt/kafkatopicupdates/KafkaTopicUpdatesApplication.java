@@ -7,7 +7,6 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
 @EnableScheduling
-@EnableKafkaStreams
 public class KafkaTopicUpdatesApplication {
 
 	public static void main(String[] args) {

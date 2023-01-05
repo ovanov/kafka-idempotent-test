@@ -1,0 +1,15 @@
+{
+  "namespace": "ch.ipt.kafka.avro",
+  "type": "record",
+  "name": "Authorization",
+  "fields": [
+    {
+      "name": "accountId",
+      "type": "string"
+    },
+    {
+      "name": "authorized",
+      "type": "boolean"
+    }
+  ]
+}
