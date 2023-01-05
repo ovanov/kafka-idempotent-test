@@ -1,0 +1,7 @@
+com/ipt/kafkatopicupdates/producer/AccountAvroProducer.class
+com/ipt/kafkatopicupdates/KafkaTopicUpdatesApplication.class
+ch/ipt/kafka/avro/Account.class
+ch/ipt/kafka/avro/Account$Builder.class
+com/ipt/kafkatopicupdates/consumer/KafkaConsumer.class
+com/ipt/kafkatopicupdates/producer/AccountDataEnum.class
+com/ipt/kafkatopicupdates/producer/AccountAvroProducer$1.class

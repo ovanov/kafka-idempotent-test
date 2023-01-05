@@ -1,0 +1,868 @@
+# Created at 2023-01-04T09:31:22.019
+Unexpected IOException with stream: 2023-01-04 09:31:22.018  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 322 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:22.127
+Unexpected IOException with stream: 2023-01-04 09:31:22.126  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 323 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:22.235
+Unexpected IOException with stream: 2023-01-04 09:31:22.235  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 324 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:22.343
+Unexpected IOException with stream: 2023-01-04 09:31:22.342  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 325 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:22.452
+Unexpected IOException with stream: 2023-01-04 09:31:22.451  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 326 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:22.558
+Unexpected IOException with stream: 2023-01-04 09:31:22.558  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 327 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:22.665
+Unexpected IOException with stream: 2023-01-04 09:31:22.665  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 328 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:22.772
+Unexpected IOException with stream: 2023-01-04 09:31:22.772  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 329 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:22.878
+Unexpected IOException with stream: 2023-01-04 09:31:22.878  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 330 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:22.987
+Unexpected IOException with stream: 2023-01-04 09:31:22.986  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 331 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:23.093
+Unexpected IOException with stream: 2023-01-04 09:31:23.093  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 332 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:23.200
+Unexpected IOException with stream: 2023-01-04 09:31:23.200  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 333 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:23.308
+Unexpected IOException with stream: 2023-01-04 09:31:23.308  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 334 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:23.417
+Unexpected IOException with stream: 2023-01-04 09:31:23.417  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 335 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:23.524
+Unexpected IOException with stream: 2023-01-04 09:31:23.524  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 336 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:23.632
+Unexpected IOException with stream: 2023-01-04 09:31:23.632  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 337 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:23.738
+Unexpected IOException with stream: 2023-01-04 09:31:23.738  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 338 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:23.846
+Unexpected IOException with stream: 2023-01-04 09:31:23.846  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 339 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:23.952
+Unexpected IOException with stream: 2023-01-04 09:31:23.952  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 340 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:24.060
+Unexpected IOException with stream: 2023-01-04 09:31:24.060  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 341 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:24.167
+Unexpected IOException with stream: 2023-01-04 09:31:24.167  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 342 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:24.273
+Unexpected IOException with stream: 2023-01-04 09:31:24.273  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 343 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:24.380
+Unexpected IOException with stream: 2023-01-04 09:31:24.380  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 344 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:24.487
+Unexpected IOException with stream: 2023-01-04 09:31:24.487  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 345 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:24.601
+Unexpected IOException with stream: 2023-01-04 09:31:24.600  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 346 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:24.708
+Unexpected IOException with stream: 2023-01-04 09:31:24.707  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 347 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:24.815
+Unexpected IOException with stream: 2023-01-04 09:31:24.815  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 348 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:24.921
+Unexpected IOException with stream: 2023-01-04 09:31:24.921  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 349 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:25.035
+Unexpected IOException with stream: 2023-01-04 09:31:25.035  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 350 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:25.145
+Unexpected IOException with stream: 2023-01-04 09:31:25.144  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 351 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:25.253
+Unexpected IOException with stream: 2023-01-04 09:31:25.252  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 352 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:25.366
+Unexpected IOException with stream: 2023-01-04 09:31:25.364  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 353 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:25.470
+Unexpected IOException with stream: 2023-01-04 09:31:25.470  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 354 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:25.582
+Unexpected IOException with stream: 2023-01-04 09:31:25.580  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 355 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:25.690
+Unexpected IOException with stream: 2023-01-04 09:31:25.689  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 356 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:25.809
+Unexpected IOException with stream: 2023-01-04 09:31:25.808  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 357 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:25.921
+Unexpected IOException with stream: 2023-01-04 09:31:25.920  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 358 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:26.030
+Unexpected IOException with stream: 2023-01-04 09:31:26.028  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 359 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:26.143
+Unexpected IOException with stream: 2023-01-04 09:31:26.142  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 360 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:26.257
+Unexpected IOException with stream: 2023-01-04 09:31:26.257  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 361 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:26.367
+Unexpected IOException with stream: 2023-01-04 09:31:26.366  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 362 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:26.478
+Unexpected IOException with stream: 2023-01-04 09:31:26.476  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 363 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:26.582
+Unexpected IOException with stream: 2023-01-04 09:31:26.582  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 364 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:26.689
+Unexpected IOException with stream: 2023-01-04 09:31:26.689  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 365 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:26.796
+Unexpected IOException with stream: 2023-01-04 09:31:26.795  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 366 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:26.908
+Unexpected IOException with stream: 2023-01-04 09:31:26.908  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 367 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:27.016
+Unexpected IOException with stream: 2023-01-04 09:31:27.015  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 368 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:27.124
+Unexpected IOException with stream: 2023-01-04 09:31:27.124  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 369 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:27.233
+Unexpected IOException with stream: 2023-01-04 09:31:27.232  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 370 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:27.343
+Unexpected IOException with stream: 2023-01-04 09:31:27.343  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 371 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:27.453
+Unexpected IOException with stream: 2023-01-04 09:31:27.452  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 372 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:27.561
+Unexpected IOException with stream: 2023-01-04 09:31:27.561  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 373 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:27.677
+Unexpected IOException with stream: 2023-01-04 09:31:27.675  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 374 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:27.782
+Unexpected IOException with stream: 2023-01-04 09:31:27.782  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 375 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:27.888
+Unexpected IOException with stream: 2023-01-04 09:31:27.888  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 376 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:27.995
+Unexpected IOException with stream: 2023-01-04 09:31:27.995  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 377 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:28.107
+Unexpected IOException with stream: 2023-01-04 09:31:28.106  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 378 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:28.216
+Unexpected IOException with stream: 2023-01-04 09:31:28.214  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 379 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:28.325
+Unexpected IOException with stream: 2023-01-04 09:31:28.324  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 380 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:28.434
+Unexpected IOException with stream: 2023-01-04 09:31:28.433  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 381 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:28.547
+Unexpected IOException with stream: 2023-01-04 09:31:28.546  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 382 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:28.654
+Unexpected IOException with stream: 2023-01-04 09:31:28.653  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 383 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:28.761
+Unexpected IOException with stream: 2023-01-04 09:31:28.760  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 384 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:28.866
+Unexpected IOException with stream: 2023-01-04 09:31:28.866  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 385 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:28.973
+Unexpected IOException with stream: 2023-01-04 09:31:28.973  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 386 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:29.090
+Unexpected IOException with stream: 2023-01-04 09:31:29.090  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 387 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:29.197
+Unexpected IOException with stream: 2023-01-04 09:31:29.197  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 388 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:29.307
+Unexpected IOException with stream: 2023-01-04 09:31:29.306  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 389 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:29.414
+Unexpected IOException with stream: 2023-01-04 09:31:29.413  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 390 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:29.523
+Unexpected IOException with stream: 2023-01-04 09:31:29.522  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 391 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:29.631
+Unexpected IOException with stream: 2023-01-04 09:31:29.631  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 392 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:29.741
+Unexpected IOException with stream: 2023-01-04 09:31:29.741  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 393 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:29.848
+Unexpected IOException with stream: 2023-01-04 09:31:29.848  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 394 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:29.956
+Unexpected IOException with stream: 2023-01-04 09:31:29.955  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 395 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:30.065
+Unexpected IOException with stream: 2023-01-04 09:31:30.064  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 396 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:30.175
+Unexpected IOException with stream: 2023-01-04 09:31:30.174  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 397 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:30.283
+Unexpected IOException with stream: 2023-01-04 09:31:30.282  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 398 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:30.390
+Unexpected IOException with stream: 2023-01-04 09:31:30.389  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 399 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:30.499
+Unexpected IOException with stream: 2023-01-04 09:31:30.498  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 400 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:30.607
+Unexpected IOException with stream: 2023-01-04 09:31:30.606  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 401 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:30.714
+Unexpected IOException with stream: 2023-01-04 09:31:30.714  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 402 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:30.822
+Unexpected IOException with stream: 2023-01-04 09:31:30.820  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 403 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:30.933
+Unexpected IOException with stream: 2023-01-04 09:31:30.932  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 404 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:31.041
+Unexpected IOException with stream: 2023-01-04 09:31:31.040  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 405 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:31.146
+Unexpected IOException with stream: 2023-01-04 09:31:31.146  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 406 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:31.252
+Unexpected IOException with stream: 2023-01-04 09:31:31.252  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 407 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:31.364
+Unexpected IOException with stream: 2023-01-04 09:31:31.363  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 408 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:31.471
+Unexpected IOException with stream: 2023-01-04 09:31:31.470  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 409 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:31.578
+Unexpected IOException with stream: 2023-01-04 09:31:31.577  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 410 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:31.684
+Unexpected IOException with stream: 2023-01-04 09:31:31.684  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 411 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:31.792
+Unexpected IOException with stream: 2023-01-04 09:31:31.791  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 412 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:31.898
+Unexpected IOException with stream: 2023-01-04 09:31:31.898  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 413 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:32.006
+Unexpected IOException with stream: 2023-01-04 09:31:32.005  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 414 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:32.113
+Unexpected IOException with stream: 2023-01-04 09:31:32.112  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 415 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:32.221
+Unexpected IOException with stream: 2023-01-04 09:31:32.220  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 416 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:32.328
+Unexpected IOException with stream: 2023-01-04 09:31:32.328  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 417 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:32.437
+Unexpected IOException with stream: 2023-01-04 09:31:32.436  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 418 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:32.547
+Unexpected IOException with stream: 2023-01-04 09:31:32.546  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 419 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:32.654
+Unexpected IOException with stream: 2023-01-04 09:31:32.654  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 420 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:32.762
+Unexpected IOException with stream: 2023-01-04 09:31:32.762  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 421 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:32.871
+Unexpected IOException with stream: 2023-01-04 09:31:32.871  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 422 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:32.977
+Unexpected IOException with stream: 2023-01-04 09:31:32.976  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 423 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:33.084
+Unexpected IOException with stream: 2023-01-04 09:31:33.084  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 424 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:33.193
+Unexpected IOException with stream: 2023-01-04 09:31:33.192  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 425 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:33.314
+Unexpected IOException with stream: 2023-01-04 09:31:33.312  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 426 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:33.420
+Unexpected IOException with stream: 2023-01-04 09:31:33.419  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 427 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:33.527
+Unexpected IOException with stream: 2023-01-04 09:31:33.527  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 428 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:33.635
+Unexpected IOException with stream: 2023-01-04 09:31:33.635  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 429 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:33.741
+Unexpected IOException with stream: 2023-01-04 09:31:33.741  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 430 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:33.849
+Unexpected IOException with stream: 2023-01-04 09:31:33.849  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 431 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:33.959
+Unexpected IOException with stream: 2023-01-04 09:31:33.959  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 432 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:34.066
+Unexpected IOException with stream: 2023-01-04 09:31:34.065  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 433 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:34.175
+Unexpected IOException with stream: 2023-01-04 09:31:34.174  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 434 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:34.285
+Unexpected IOException with stream: 2023-01-04 09:31:34.283  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 435 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:34.397
+Unexpected IOException with stream: 2023-01-04 09:31:34.396  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 436 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:34.504
+Unexpected IOException with stream: 2023-01-04 09:31:34.504  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 437 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:34.611
+Unexpected IOException with stream: 2023-01-04 09:31:34.611  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 438 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:34.724
+Unexpected IOException with stream: 2023-01-04 09:31:34.723  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 439 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:34.829
+Unexpected IOException with stream: 2023-01-04 09:31:34.828  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 440 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:34.935
+Unexpected IOException with stream: 2023-01-04 09:31:34.935  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 441 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:35.043
+Unexpected IOException with stream: 2023-01-04 09:31:35.042  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 442 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:35.153
+Unexpected IOException with stream: 2023-01-04 09:31:35.152  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 443 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:35.261
+Unexpected IOException with stream: 2023-01-04 09:31:35.261  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 444 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:35.369
+Unexpected IOException with stream: 2023-01-04 09:31:35.368  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 445 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:35.481
+Unexpected IOException with stream: 2023-01-04 09:31:35.479  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 446 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:35.586
+Unexpected IOException with stream: 2023-01-04 09:31:35.585  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 447 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:35.697
+Unexpected IOException with stream: 2023-01-04 09:31:35.696  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 448 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:35.807
+Unexpected IOException with stream: 2023-01-04 09:31:35.807  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 449 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:35.913
+Unexpected IOException with stream: 2023-01-04 09:31:35.913  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 450 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:36.019
+Unexpected IOException with stream: 2023-01-04 09:31:36.019  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 451 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:36.127
+Unexpected IOException with stream: 2023-01-04 09:31:36.126  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 452 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:36.232
+Unexpected IOException with stream: 2023-01-04 09:31:36.232  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 453 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:36.340
+Unexpected IOException with stream: 2023-01-04 09:31:36.340  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 454 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:36.446
+Unexpected IOException with stream: 2023-01-04 09:31:36.446  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 455 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:36.554
+Unexpected IOException with stream: 2023-01-04 09:31:36.554  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 456 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:36.660
+Unexpected IOException with stream: 2023-01-04 09:31:36.660  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 457 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:36.768
+Unexpected IOException with stream: 2023-01-04 09:31:36.768  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 458 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:36.880
+Unexpected IOException with stream: 2023-01-04 09:31:36.880  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 459 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:36.987
+Unexpected IOException with stream: 2023-01-04 09:31:36.987  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 460 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:37.096
+Unexpected IOException with stream: 2023-01-04 09:31:37.096  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 461 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:37.203
+Unexpected IOException with stream: 2023-01-04 09:31:37.203  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 462 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:37.309
+Unexpected IOException with stream: 2023-01-04 09:31:37.309  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 463 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:37.415
+Unexpected IOException with stream: 2023-01-04 09:31:37.415  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 464 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:37.522
+Unexpected IOException with stream: 2023-01-04 09:31:37.522  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 465 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:37.631
+Unexpected IOException with stream: 2023-01-04 09:31:37.630  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 466 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:37.740
+Unexpected IOException with stream: 2023-01-04 09:31:37.740  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 467 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:37.847
+Unexpected IOException with stream: 2023-01-04 09:31:37.847  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 468 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:37.954
+Unexpected IOException with stream: 2023-01-04 09:31:37.954  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 469 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:38.064
+Unexpected IOException with stream: 2023-01-04 09:31:38.063  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 470 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:38.168
+Unexpected IOException with stream: 2023-01-04 09:31:38.168  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 471 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:38.275
+Unexpected IOException with stream: 2023-01-04 09:31:38.275  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 472 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:38.381
+Unexpected IOException with stream: 2023-01-04 09:31:38.380  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 473 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:38.487
+Unexpected IOException with stream: 2023-01-04 09:31:38.487  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 474 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:38.596
+Unexpected IOException with stream: 2023-01-04 09:31:38.596  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 475 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:38.702
+Unexpected IOException with stream: 2023-01-04 09:31:38.701  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 476 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:38.808
+Unexpected IOException with stream: 2023-01-04 09:31:38.808  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 477 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:38.915
+Unexpected IOException with stream: 2023-01-04 09:31:38.915  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 478 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:39.022
+Unexpected IOException with stream: 2023-01-04 09:31:39.022  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 479 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:39.132
+Unexpected IOException with stream: 2023-01-04 09:31:39.132  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 480 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:39.240
+Unexpected IOException with stream: 2023-01-04 09:31:39.239  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 481 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:39.349
+Unexpected IOException with stream: 2023-01-04 09:31:39.348  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 482 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:39.457
+Unexpected IOException with stream: 2023-01-04 09:31:39.456  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 483 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:39.566
+Unexpected IOException with stream: 2023-01-04 09:31:39.565  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 484 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:39.672
+Unexpected IOException with stream: 2023-01-04 09:31:39.672  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 485 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:39.782
+Unexpected IOException with stream: 2023-01-04 09:31:39.782  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 486 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:39.891
+Unexpected IOException with stream: 2023-01-04 09:31:39.890  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 487 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:39.999
+Unexpected IOException with stream: 2023-01-04 09:31:39.998  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 488 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:40.104
+Unexpected IOException with stream: 2023-01-04 09:31:40.104  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 489 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:40.214
+Unexpected IOException with stream: 2023-01-04 09:31:40.213  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 490 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:40.320
+Unexpected IOException with stream: 2023-01-04 09:31:40.320  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 491 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:40.428
+Unexpected IOException with stream: 2023-01-04 09:31:40.428  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 492 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:40.536
+Unexpected IOException with stream: 2023-01-04 09:31:40.535  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 493 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:40.642
+Unexpected IOException with stream: 2023-01-04 09:31:40.642  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 494 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:40.751
+Unexpected IOException with stream: 2023-01-04 09:31:40.750  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 495 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:40.857
+Unexpected IOException with stream: 2023-01-04 09:31:40.857  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 496 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:40.965
+Unexpected IOException with stream: 2023-01-04 09:31:40.964  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 497 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:41.070
+Unexpected IOException with stream: 2023-01-04 09:31:41.070  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 498 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:41.179
+Unexpected IOException with stream: 2023-01-04 09:31:41.178  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 499 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:41.285
+Unexpected IOException with stream: 2023-01-04 09:31:41.285  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 500 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:41.395
+Unexpected IOException with stream: 2023-01-04 09:31:41.394  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 501 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:41.502
+Unexpected IOException with stream: 2023-01-04 09:31:41.502  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 502 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:41.610
+Unexpected IOException with stream: 2023-01-04 09:31:41.609  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 503 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:41.716
+Unexpected IOException with stream: 2023-01-04 09:31:41.715  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 504 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:41.823
+Unexpected IOException with stream: 2023-01-04 09:31:41.823  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 505 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:41.931
+Unexpected IOException with stream: 2023-01-04 09:31:41.930  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 506 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:42.038
+Unexpected IOException with stream: 2023-01-04 09:31:42.038  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 507 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:42.144
+Unexpected IOException with stream: 2023-01-04 09:31:42.144  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 508 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:42.251
+Unexpected IOException with stream: 2023-01-04 09:31:42.250  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 509 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:42.360
+Unexpected IOException with stream: 2023-01-04 09:31:42.359  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 510 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:42.468
+Unexpected IOException with stream: 2023-01-04 09:31:42.467  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 511 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:42.578
+Unexpected IOException with stream: 2023-01-04 09:31:42.577  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 512 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:42.685
+Unexpected IOException with stream: 2023-01-04 09:31:42.684  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 513 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:42.790
+Unexpected IOException with stream: 2023-01-04 09:31:42.790  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 514 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:42.897
+Unexpected IOException with stream: 2023-01-04 09:31:42.897  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 515 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:43.005
+Unexpected IOException with stream: 2023-01-04 09:31:43.004  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 516 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:43.112
+Unexpected IOException with stream: 2023-01-04 09:31:43.112  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 517 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:43.218
+Unexpected IOException with stream: 2023-01-04 09:31:43.218  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 518 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:43.326
+Unexpected IOException with stream: 2023-01-04 09:31:43.325  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 519 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:43.437
+Unexpected IOException with stream: 2023-01-04 09:31:43.436  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 520 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:43.549
+Unexpected IOException with stream: 2023-01-04 09:31:43.549  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 521 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:43.658
+Unexpected IOException with stream: 2023-01-04 09:31:43.657  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 522 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:43.766
+Unexpected IOException with stream: 2023-01-04 09:31:43.766  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 523 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:43.872
+Unexpected IOException with stream: 2023-01-04 09:31:43.872  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 524 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:43.983
+Unexpected IOException with stream: 2023-01-04 09:31:43.983  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 525 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:44.091
+Unexpected IOException with stream: 2023-01-04 09:31:44.091  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 526 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:44.205
+Unexpected IOException with stream: 2023-01-04 09:31:44.204  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 527 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:44.314
+Unexpected IOException with stream: 2023-01-04 09:31:44.313  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 528 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:44.424
+Unexpected IOException with stream: 2023-01-04 09:31:44.424  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 529 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:44.540
+Unexpected IOException with stream: 2023-01-04 09:31:44.538  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 530 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:44.648
+Unexpected IOException with stream: 2023-01-04 09:31:44.648  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 531 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:44.755
+Unexpected IOException with stream: 2023-01-04 09:31:44.755  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 532 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:44.871
+Unexpected IOException with stream: 2023-01-04 09:31:44.870  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 533 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:44.983
+Unexpected IOException with stream: 2023-01-04 09:31:44.983  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 534 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:45.103
+Unexpected IOException with stream: 2023-01-04 09:31:45.101  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 535 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:45.232
+Unexpected IOException with stream: 2023-01-04 09:31:45.231  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 536 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:45.352
+Unexpected IOException with stream: 2023-01-04 09:31:45.352  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 537 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+
+# Created at 2023-01-04T09:31:45.472
+Unexpected IOException with stream: 2023-01-04 09:31:45.472  WARN 5090 --- [ad | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Error while fetching metadata with correlation id 538 : {accounts=UNKNOWN_TOPIC_OR_PARTITION}
+
+

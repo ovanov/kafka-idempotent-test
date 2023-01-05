@@ -1,0 +1,5 @@
+/Users/ovanov/Documents/ipt/ucc/kafka-topic-updates/src/main/java/com/ipt/kafkatopicupdates/KafkaTopicUpdatesApplication.java
+/Users/ovanov/Documents/ipt/ucc/kafka-topic-updates/src/main/java/com/ipt/kafkatopicupdates/consumer/KafkaConsumer.java
+/Users/ovanov/Documents/ipt/ucc/kafka-topic-updates/src/main/java/com/ipt/kafkatopicupdates/producer/AccountDataEnum.java
+/Users/ovanov/Documents/ipt/ucc/kafka-topic-updates/target/generated-sources/ch/ipt/kafka/avro/Account.java
+/Users/ovanov/Documents/ipt/ucc/kafka-topic-updates/src/main/java/com/ipt/kafkatopicupdates/producer/AccountAvroProducer.java
