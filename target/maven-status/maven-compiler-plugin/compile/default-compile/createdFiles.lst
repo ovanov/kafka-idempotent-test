@@ -1,8 +1,8 @@
 com/ipt/kafkatopicupdates/KafkaTopicUpdatesApplication.class
-com/ipt/kafkatopicupdates/config/KafkaStreamsDefaultTopology.class
 ch/ipt/kafka/avro/Authorization.class
 ch/ipt/kafka/avro/Authorization$Builder.class
 com/ipt/kafkatopicupdates/producer/AuthorizationAvroProducer$1.class
 com/ipt/kafkatopicupdates/producer/AuthorizationAvroProducer.class
 com/ipt/kafkatopicupdates/consumer/KafkaConsumer.class
-com/ipt/kafkatopicupdates/streams/KafkaStreamsAggregate.class
+com/ipt/kafkatopicupdates/streams/KafkaStreamsStateTest$1.class
+com/ipt/kafkatopicupdates/streams/KafkaStreamsStateTest.class
