@@ -16,9 +16,9 @@ public class KafkaConsumer {
     private static final Logger LOGGER = LoggerFactory.getLogger(KafkaConsumer.class);
     @KafkaListener(id = "authorization-consumer",
             topics = "state-transfer")
-    public void receiveNewState(ConsumerRecord<String, String> consumerRecord) {
+    public void receiveNewState(ConsumerRecord<String, Authorization> consumerRecord) {
         String key = consumerRecord.key();
-        String value = consumerRecord.value();
+        Authorization value = consumerRecord.value();
         LOGGER.info("Received: key={}, value={}", key, value);
     }
 }

@@ -51,27 +51,28 @@ public class KafkaStreamsStateTest {
     @Autowired
     void buildPipeline(StreamsBuilder streamsBuilder) {
 
-        StoreBuilder<KeyValueStore<String, String>> keyValueStoreStoreBuilder =
+        StoreBuilder<KeyValueStore<String, Authorization>> keyValueStoreStoreBuilder =
                 Stores.keyValueStoreBuilder(
                         Stores.persistentKeyValueStore(STORE_NAME),
                         Serdes.String(),
-                        Serdes.String());
+                        Serdes.serdeFrom(AUTHORIZATION_SERDE.serializer(), AUTHORIZATION_SERDE.deserializer())
+                );
 
         streamsBuilder.addStateStore(keyValueStoreStoreBuilder);
 
-        KStream<String, String> stream = streamsBuilder.stream(sourceTopic);
+        KStream<String, Authorization> stream = streamsBuilder.stream(sourceTopic);
 
         stream
-                .transformValues(() -> new ValueTransformerWithKey<String, String, String>() {
-                    private KeyValueStore<String, String> state;
+                .transformValues(() -> new ValueTransformerWithKey<String, Authorization, Authorization>() {
+                    private KeyValueStore<String, Authorization> state;
                     @Override
                     public void init(ProcessorContext context) {
-                        state = (KeyValueStore<String, String>) context.getStateStore(STORE_NAME);
+                        state = context.getStateStore(STORE_NAME);
                     }
                     @Override
-                    public String transform(final String key, final String value) {
-                        String prevValue = state.get(key);
-                        if (prevValue.equals(value)) {
+                    public Authorization transform(final String key, final Authorization value) {
+                        Authorization prevValue = state.get(key);
+                        if (prevValue.getAuthorized() == value.getAuthorized()) {
                             return null;
                         }
                         state.put(key, value);
