@@ -54,7 +54,7 @@ public class AuthorizationDeduplicationStream {
                         (readOnlyKey, value) -> String.valueOf(value.getAuthorized())
                 )
                 .transformValues(
-                        new DeduplicationStringTransformerSupplier(STORE_NAME),
+                        new DeduplicationTransformerSupplier(STORE_NAME),
                         STORE_NAME
                 )
                 .filter(
