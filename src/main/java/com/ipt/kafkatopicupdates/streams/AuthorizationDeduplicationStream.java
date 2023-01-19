@@ -1,14 +1,10 @@
 package com.ipt.kafkatopicupdates.streams;
 
 import ch.ipt.kafka.avro.Authorization;
-import io.confluent.kafka.streams.serdes.avro.SpecificAvroSerde;
 import org.apache.kafka.clients.admin.NewTopic;
-import org.apache.kafka.common.serialization.Serde;
 import org.apache.kafka.common.serialization.Serdes;
 import org.apache.kafka.streams.StreamsBuilder;
 import org.apache.kafka.streams.kstream.KStream;
-import org.apache.kafka.streams.kstream.ValueTransformerWithKey;
-import org.apache.kafka.streams.processor.ProcessorContext;
 import org.apache.kafka.streams.state.KeyValueStore;
 import org.apache.kafka.streams.state.StoreBuilder;
 import org.apache.kafka.streams.state.Stores;
@@ -21,7 +17,7 @@ import org.springframework.kafka.config.TopicBuilder;
 import org.springframework.stereotype.Component;
 
 @Component
-public class KafkaStreamsStateTest {
+public class AuthorizationDeduplicationStream {
 
     @Value("${topics.authorizations-with-duplicates}")
     private String sourceTopic;
@@ -30,7 +26,7 @@ public class KafkaStreamsStateTest {
 
     private static final String STORE_NAME = "authorization-store-3";
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(KafkaStreamsStateTest.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(AuthorizationDeduplicationStream.class);
 
     @Bean
     public NewTopic topicExampleFiltered() {
@@ -58,7 +54,7 @@ public class KafkaStreamsStateTest {
                         (readOnlyKey, value) -> String.valueOf(value.getAuthorized())
                 )
                 .transformValues(
-                        new RemoveDuplicateStringTransformerSupplier(STORE_NAME),
+                        new DeduplicationStringTransformerSupplier(STORE_NAME),
                         STORE_NAME
                 )
                 .filter(

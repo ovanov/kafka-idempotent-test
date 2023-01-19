@@ -5,11 +5,11 @@ import org.apache.kafka.streams.kstream.ValueTransformerWithKeySupplier;
 import org.apache.kafka.streams.processor.ProcessorContext;
 import org.apache.kafka.streams.state.KeyValueStore;
 
-public class RemoveDuplicateStringTransformerSupplier implements ValueTransformerWithKeySupplier<String, String, String> {
+public class DeduplicationStringTransformerSupplier implements ValueTransformerWithKeySupplier<String, String, String> {
 
     private final String storeName;
 
-    public RemoveDuplicateStringTransformerSupplier(String storeName) {
+    public DeduplicationStringTransformerSupplier(String storeName) {
         this.storeName = storeName;
     }
     @Override
