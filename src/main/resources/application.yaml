@@ -1,7 +1,7 @@
 spring:
-# Required connection configs for Kafka producer, consumer, and admin
   kafka:
     properties:
+      # Required connection configs for Kafka producer, consumer, and admin
       sasl.mechanism: PLAIN
       bootstrap.servers: pkc-lzoyy.europe-west6.gcp.confluent.cloud:9092
       sasl.jaas.config: org.apache.kafka.common.security.plain.PlainLoginModule required username='DYMQ6S7JSRQ42Q5B' password='pn4GWNJem4ZOk0RU3nnV/lRz0J4lojcPhSnLRuMFbjleefVJY5vEJEkZ8wi9OcOJ';
@@ -28,6 +28,6 @@ spring:
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       properties.specific.avro.reader: true
 
-
-source-topic-authorizations: authorization1
-source-topic-state-transfer: state-transfer1
+topics:
+  authorizations-with-duplicates: authorization1
+  authorizations-without-duplicates: state-transfer-5

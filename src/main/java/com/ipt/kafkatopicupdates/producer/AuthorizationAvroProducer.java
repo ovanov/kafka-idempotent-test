@@ -20,7 +20,7 @@ public class AuthorizationAvroProducer {
 
     private int counter = 0;
 
-    @Value("${source-topic-authorizations}")
+    @Value("${topics.authorizations-with-duplicates}")
     private String sourceTopic;
 
     @Autowired
