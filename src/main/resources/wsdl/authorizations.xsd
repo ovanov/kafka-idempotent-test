@@ -1,0 +1,19 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="soap.ipt.ch"
+           targetNamespace="soap.ipt.ch" elementFormDefault="qualified">
+
+    <xs:element name="postAuthorization">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="soapAuthorization" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="soapAuthorization">
+        <xs:sequence>
+            <xs:element name="accountId" type="xs:string"/>
+            <xs:element name="authorized" type="xs:boolean"/>
+        </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>
