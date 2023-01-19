@@ -8,10 +8,10 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @SpringBootApplication
 @EnableScheduling
 @EnableKafkaStreams
-public class KafkaTopicUpdatesApplication {
+public class KafkaApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(KafkaTopicUpdatesApplication.class, args);
+		SpringApplication.run(KafkaApplication.class, args);
 	}
 
 }
