@@ -1,7 +1,6 @@
 package com.ipt.kafkatopicupdates.producer;
 
 import ch.ipt.kafka.avro.Authorization;
-import com.google.rpc.context.AttributeContext;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,7 +23,7 @@ public class AuthorizationAvroProducer {
     private String sourceTopic;
 
     @Autowired
-    KafkaTemplate<String, Authorization> kafkaTemplatePayment;
+    KafkaTemplate<String, Authorization> authorizationKafkaTemplate;
 
 
     @Scheduled(fixedRate = 2000)
@@ -37,7 +36,7 @@ public class AuthorizationAvroProducer {
         }
 
         ListenableFuture<SendResult<String, Authorization>> future =
-                kafkaTemplatePayment.send(
+                authorizationKafkaTemplate.send(
                         sourceTopic,
                         authorization.getAccountId().toString(),
                         authorization

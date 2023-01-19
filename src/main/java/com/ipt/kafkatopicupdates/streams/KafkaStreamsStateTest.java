@@ -1,15 +1,13 @@
 package com.ipt.kafkatopicupdates.streams;
 
-
 import ch.ipt.kafka.avro.Authorization;
-import io.confluent.kafka.schemaregistry.client.MockSchemaRegistryClient;
-import io.confluent.kafka.schemaregistry.client.SchemaRegistryClient;
 import io.confluent.kafka.streams.serdes.avro.SpecificAvroSerde;
 import org.apache.kafka.clients.admin.NewTopic;
 import org.apache.kafka.common.serialization.Serde;
 import org.apache.kafka.common.serialization.Serdes;
 import org.apache.kafka.streams.StreamsBuilder;
-import org.apache.kafka.streams.kstream.*;
+import org.apache.kafka.streams.kstream.KStream;
+import org.apache.kafka.streams.kstream.ValueTransformerWithKey;
 import org.apache.kafka.streams.processor.ProcessorContext;
 import org.apache.kafka.streams.state.KeyValueStore;
 import org.apache.kafka.streams.state.StoreBuilder;
@@ -19,13 +17,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Profile;
 import org.springframework.kafka.config.TopicBuilder;
 import org.springframework.stereotype.Component;
-
-import java.util.Collections;
-import java.util.Map;
-
 
 @Component
 public class KafkaStreamsStateTest {
@@ -34,8 +27,6 @@ public class KafkaStreamsStateTest {
     private String sourceTopic;
     @Value("${topics.authorizations-without-duplicates}")
     private String sinkTopic;
-
-    private static final Serde<Authorization> AUTHORIZATION_SERDE = new SpecificAvroSerde<>();
 
     private static final String STORE_NAME = "authorization-store-3";
 
@@ -63,30 +54,19 @@ public class KafkaStreamsStateTest {
         KStream<String, Authorization> stream = streamsBuilder.stream(sourceTopic);
 
         stream
-                .mapValues(((readOnlyKey, value) -> String.valueOf(value.getAuthorized())))
-                .transformValues(() -> new ValueTransformerWithKey<String, String, String>() {
-                    private KeyValueStore<String, String> state;
-                    @Override
-                    public void init(ProcessorContext context) {
-                        state = (KeyValueStore<String, String>) context.getStateStore(STORE_NAME);
-                    }
-                    @Override
-                    public String transform(final String key, final String value) {
-                        String prevValue = state.get(key);
-                        if (prevValue != null && prevValue.equals(value)) {
-                            return null;
-                        }
-                        state.put(key, value);
-                        return value;
-                    }
-
-                    @Override
-                    public void close() {}
-                }, STORE_NAME)
+                .mapValues(
+                        (readOnlyKey, value) -> String.valueOf(value.getAuthorized())
+                )
+                .transformValues(
+                        new RemoveDuplicateStringTransformerSupplier(STORE_NAME),
+                        STORE_NAME
+                )
                 .filter(
                         (key, value) -> value != null
                 )
-                .mapValues((readOnlyKey, value) -> new Authorization(readOnlyKey, value.equals("true")))
+                .mapValues(
+                        (readOnlyKey, value) -> new Authorization(readOnlyKey, value.equals("true"))
+                )
                 .peek((key, value) -> LOGGER.info("Message: key={}, value={}", key, value))
                 .to(sinkTopic);
     }
