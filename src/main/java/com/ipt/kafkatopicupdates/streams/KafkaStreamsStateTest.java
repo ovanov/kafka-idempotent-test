@@ -32,11 +32,11 @@ public class KafkaStreamsStateTest {
 
     @Value("${source-topic-authorizations}")
     private String sourceTopic;
-    String sinkTopic = "state-transfer";
+    String sinkTopic = "state-transfer-5";
 
     private static final Serde<Authorization> AUTHORIZATION_SERDE = new SpecificAvroSerde<>();
 
-    private static final String STORE_NAME = "authorization-store";
+    private static final String STORE_NAME = "authorization-store-3";
 
     private static final Logger LOGGER = LoggerFactory.getLogger(KafkaStreamsStateTest.class);
 
@@ -59,9 +59,10 @@ public class KafkaStreamsStateTest {
 
         streamsBuilder.addStateStore(keyValueStoreStoreBuilder);
 
-        KStream<String, String> stream = streamsBuilder.stream(sourceTopic);
+        KStream<String, Authorization> stream = streamsBuilder.stream(sourceTopic);
 
         stream
+                .mapValues(((readOnlyKey, value) -> String.valueOf(value.getAuthorized())))
                 .transformValues(() -> new ValueTransformerWithKey<String, String, String>() {
                     private KeyValueStore<String, String> state;
                     @Override
@@ -71,7 +72,7 @@ public class KafkaStreamsStateTest {
                     @Override
                     public String transform(final String key, final String value) {
                         String prevValue = state.get(key);
-                        if (prevValue.equals(value)) {
+                        if (prevValue != null && prevValue.equals(value)) {
                             return null;
                         }
                         state.put(key, value);
@@ -84,6 +85,7 @@ public class KafkaStreamsStateTest {
                 .filter(
                         (key, value) -> value != null
                 )
+                .mapValues((readOnlyKey, value) -> new Authorization(readOnlyKey, value.equals("true")))
                 .peek((key, value) -> LOGGER.info("Message: key={}, value={}", key, value))
                 .to(sinkTopic);
     }

@@ -24,7 +24,7 @@ public class AuthorizationAvroProducer {
     private String sourceTopic;
 
     @Autowired
-    KafkaTemplate<String, String> kafkaTemplatePayment;
+    KafkaTemplate<String, Authorization> kafkaTemplatePayment;
 
 
     @Scheduled(fixedRate = 2000)
@@ -36,17 +36,17 @@ public class AuthorizationAvroProducer {
             counter++;
         }
 
-        ListenableFuture<SendResult<String, String>> future =
+        ListenableFuture<SendResult<String, Authorization>> future =
                 kafkaTemplatePayment.send(
                         sourceTopic,
                         authorization.getAccountId().toString(),
-                        (!authorization.getAuthorized()) ? "false" : "true"
+                        authorization
                 );
 
         future.addCallback(new ListenableFutureCallback<>() {
 
             @Override
-            public void onSuccess(SendResult<String, String> result) {
+            public void onSuccess(SendResult<String, Authorization> result) {
                 LOGGER.info("Message [{}] delivered with offset {}",
                         authorization,
                         result.getRecordMetadata().offset());
