@@ -1,0 +1,33 @@
+spring:
+# Required connection configs for Kafka producer, consumer, and admin
+  kafka:
+    properties:
+      sasl.mechanism: PLAIN
+      bootstrap.servers: pkc-lzoyy.europe-west6.gcp.confluent.cloud:9092
+      sasl.jaas.config: org.apache.kafka.common.security.plain.PlainLoginModule required username='DYMQ6S7JSRQ42Q5B' password='pn4GWNJem4ZOk0RU3nnV/lRz0J4lojcPhSnLRuMFbjleefVJY5vEJEkZ8wi9OcOJ';
+      security.protocol: SASL_SSL
+      # Best practice for higher availability in Apache Kafka clients prior to 3.0
+      session.timeout.ms: 45000
+      # Required connection configs for Confluent Cloud Schema Registry
+      basic.auth.credentials.source: USER_INFO
+      basic.auth.user.info: 3PDMQ5CJ3D3OLFNL:Hp1S1jjlzU3IvsRtr/mRXIBfElsP0Lk5J9y0DnJDFYAL0HiTuQCWBNtTsyXt1m4q
+      schema.registry.url: https://psrc-9zg5y.europe-west3.gcp.confluent.cloud
+      schema.registry.auto-register: true
+
+    streams:
+      application-id: streams-app
+      properties.default.value.serde: io.confluent.kafka.streams.serdes.avro.SpecificAvroSerde
+      properties.default.key.serde: org.apache.kafka.common.serialization.Serdes$StringSerde
+
+    producer:
+      value-serializer: io.confluent.kafka.serializers.KafkaAvroSerializer
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+
+    consumer:
+      value-deserializer: io.confluent.kafka.serializers.KafkaAvroDeserializer
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      properties.specific.avro.reader: true
+
+
+source-topic-authorizations: authorization1
+source-topic-state-transfer: state-transfer1
