@@ -1,0 +1,12 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:gs="ipt.ch.soap">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <gs:authorizationRequest>
+            <gs:soapAuthorization>
+                <gs:accountId>123</gs:accountId>
+                <gs:authorized>true</gs:authorized>
+            </gs:soapAuthorization>
+        </gs:authorizationRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
