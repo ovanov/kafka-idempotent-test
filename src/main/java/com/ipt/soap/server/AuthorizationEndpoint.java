@@ -1,18 +1,19 @@
-package com.ipt.soap;
+package com.ipt.soap.server;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.ws.server.endpoint.annotation.Endpoint;
 import org.springframework.ws.server.endpoint.annotation.PayloadRoot;
 import org.springframework.ws.server.endpoint.annotation.RequestPayload;
+import soap.ch.ipt.GetAuthorizationRequest;
 
 @Endpoint
 public class AuthorizationEndpoint {
     private static final Logger LOGGER = LoggerFactory.getLogger(AuthorizationEndpoint.class);
-    private static final String NAMESPACE_URI = "soap.ipt.ch";
+    private static final String NAMESPACE_URI = "ipt.ch.soap";
 
-    @PayloadRoot(namespace = NAMESPACE_URI, localPart = "postAuthorization")
-    public void postAuthorization(@RequestPayload soap.ch.ipt.com.schemas.PostAuthorization request) {
+    @PayloadRoot(namespace = NAMESPACE_URI, localPart = "getAuthorizationRequest")
+    public void authorizationRequest(@RequestPayload GetAuthorizationRequest request) {
 
         LOGGER.info("Request received: {}", request);
     }
