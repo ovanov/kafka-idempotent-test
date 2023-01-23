@@ -1,4 +1,4 @@
-package com.ipt.soap;
+package com.ipt.soap.server;
 
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.ApplicationContext;
@@ -28,7 +28,7 @@ public class SoapServerConfiguration  extends WsConfigurerAdapter {
         DefaultWsdl11Definition wsdl11Definition = new DefaultWsdl11Definition();
         wsdl11Definition.setPortTypeName("AuthorizationsPort");
         wsdl11Definition.setLocationUri("/ws");
-        wsdl11Definition.setTargetNamespace("soap.ipt.ch");
+        wsdl11Definition.setTargetNamespace("ipt.ch.soap");
         wsdl11Definition.setSchema(countriesSchema);
         return wsdl11Definition;
     }
