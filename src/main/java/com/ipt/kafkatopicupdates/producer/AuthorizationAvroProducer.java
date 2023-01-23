@@ -42,13 +42,14 @@ public class AuthorizationAvroProducer {
                         authorization
                 );
 
-        future.addCallback(new ListenableFutureCallback<>() {
+        future.addCallback(new ListenableFutureCallback() {
 
             @Override
-            public void onSuccess(SendResult<String, Authorization> result) {
+            public void onSuccess(Object result) {
+                SendResult<String, Authorization> castResult = (SendResult<String, Authorization>) result;
                 LOGGER.info("Message [{}] delivered with offset {}",
                         authorization,
-                        result.getRecordMetadata().offset());
+                        castResult.getRecordMetadata().offset());
             }
 
             @Override

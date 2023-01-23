@@ -14,7 +14,7 @@ public class DeduplicationTransformerSupplier implements ValueTransformerWithKey
     }
     @Override
     public ValueTransformerWithKey<String, String, String> get() {
-        return new ValueTransformerWithKey<>() {
+        return new ValueTransformerWithKey() {
             private KeyValueStore<String, String> state;
 
             @Override
@@ -23,12 +23,14 @@ public class DeduplicationTransformerSupplier implements ValueTransformerWithKey
             }
 
             @Override
-            public String transform(final String key, final String value) {
-                String prevValue = state.get(key);
+            public Object transform(Object readOnlyKey, Object value) {
+                String stringKey = (String) readOnlyKey;
+                String stringValue = (String) value;
+                String prevValue = state.get(stringKey);
                 if (prevValue != null && prevValue.equals(value)) {
                     return null;
                 }
-                state.put(key, value);
+                state.put(stringKey, stringValue);
                 return value;
             }
 
