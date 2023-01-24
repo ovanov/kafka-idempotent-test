@@ -1,4 +1,4 @@
-package com.ipt.soap.server;
+package com.ipt.kafkatopicupdates.soapserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
