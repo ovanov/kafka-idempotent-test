@@ -13,9 +13,9 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
 @Component
-public class DefaultStreamsTopology {
+public class AuthorizationDeduplicationTopology {
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(DefaultStreamsTopology.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(AuthorizationDeduplicationTopology.class);
 
     public void buildTopology(StreamsBuilder streamsBuilder, String sourceTopic, String sinkTopic, String storeName) {
         StoreBuilder<KeyValueStore<String, String>> keyValueStoreStoreBuilder =

@@ -27,9 +27,11 @@ public class AuthorizationDeduplicationStream {
     }
 
     @Autowired
-    public void buildPipeline(StreamsBuilder streamsBuilder, DefaultStreamsTopology defaultStreamsTopology) {
+    public void buildPipeline(
+            StreamsBuilder streamsBuilder,
+            AuthorizationDeduplicationTopology authorizationDeduplicationTopology) {
 
-        defaultStreamsTopology.buildTopology(streamsBuilder, sourceTopic, sinkTopic, STORE_NAME);
+        authorizationDeduplicationTopology.buildTopology(streamsBuilder, sourceTopic, sinkTopic, STORE_NAME);
 
     }
     

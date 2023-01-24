@@ -11,7 +11,7 @@ import org.apache.kafka.streams.*;
 import org.apache.kafka.streams.state.KeyValueStore;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Disabled;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.util.Map;
@@ -22,43 +22,35 @@ import static org.hamcrest.Matchers.equalTo;
 
 
 
-class DefaultStreamsTopologyTest {
+class AuthorizationDeduplicationTopologyTest {
 
-    private DefaultStreamsTopology defaultStreamsTopology;
+    private AuthorizationDeduplicationTopology authorizationDeduplicationTopology;
 
-    private Properties config;
-    private Map<String, Object> serdeConfig;
+    private final Properties config =
+            StreamsUtils.getPropertiesConfig("test", "mock://test");
+    private final Map<String, Object> serdeConfig = StreamsUtils.propertiesToMap(config);
+    private final SpecificAvroSerde<Authorization> authorizationSerde =
+            StreamsUtils.getSpecificAvroSerde(serdeConfig);
+    private final Serde<String> stringSerde = Serdes.String();
     private TopologyTestDriver testDriver;
+    private TestInputTopic<String, Authorization> inputTopic;
+    private TestOutputTopic<String, Authorization> outputTopic;
 
     private String sourceTopic = "authorizations-with-duplicates";
     private String sinkTopic = "authorizations-without-duplicates";
     private String STORE_NAME = "test-store";
 
-    private TestInputTopic<String, Authorization> inputTopic;
-    private TestOutputTopic<String, Authorization> outputTopic;
-
-    private final Serde<String> stringSerde = Serdes.String();
-    private SpecificAvroSerde<Authorization> authorizationSerde;
-
-
 
     @BeforeEach
     public void setUp() {
-        config = new Properties();
-        config.put(StreamsConfig.APPLICATION_ID_CONFIG, "test");
 
-        config.put("schema.registry.url", "mock://test");
-
-        serdeConfig = StreamsUtils.propertiesToMap(config);
-        authorizationSerde = StreamsUtils.getSpecificAvroSerde(serdeConfig);
-
-        config.put(StreamsConfig.DEFAULT_KEY_SERDE_CLASS_CONFIG, Serdes.String().getClass());
+        config.put(StreamsConfig.DEFAULT_KEY_SERDE_CLASS_CONFIG, stringSerde.getClass());
         config.put(StreamsConfig.DEFAULT_VALUE_SERDE_CLASS_CONFIG, SpecificAvroSerde.class);
 
         StreamsBuilder streamsBuilder = new StreamsBuilder();
 
-        defaultStreamsTopology = new DefaultStreamsTopology();
-        defaultStreamsTopology.buildTopology(streamsBuilder, sourceTopic, sinkTopic, STORE_NAME);
+        authorizationDeduplicationTopology = new AuthorizationDeduplicationTopology();
+        authorizationDeduplicationTopology.buildTopology(streamsBuilder, sourceTopic, sinkTopic, STORE_NAME);
 
         Topology topology = streamsBuilder.build();
 
@@ -73,16 +65,14 @@ class DefaultStreamsTopologyTest {
     public void tearDown() {
         testDriver.close();
 
-        config = null;
-        serdeConfig = null;
-        authorizationSerde = null;
-        defaultStreamsTopology = null;
+        authorizationDeduplicationTopology = null;
         inputTopic = null;
         outputTopic = null;
     }
 
 
     @Test
+    @DisplayName("Test behaviour when the first record is written to a topic.")
     void firstRecordEntry() {
         // ARRANGE
         String accountID = "1";
@@ -117,6 +107,8 @@ class DefaultStreamsTopologyTest {
     }
 
     @Test
+    @DisplayName("Test behaviour when multiple identical records are written to a topic. (Duplicates)")
+
     void multipleDuplicateRecords() {
         // ARRANGE
         String accountID = "1";
@@ -164,6 +156,7 @@ class DefaultStreamsTopologyTest {
     }
 
     @Test
+    @DisplayName("Test behaviour, weather a state switch from `True` to `False` is processed correctly.")
     void stateSwitchFromTrueToFalse() {
         // ARRANGE
         String accountID = "1";
@@ -215,6 +208,7 @@ class DefaultStreamsTopologyTest {
     }
 
     @Test
+    @DisplayName("Test behaviour, weather a state switch from `False` to `True` is processed correctly.")
     void stateSwitchFromFalseToTrue() {
         // ARRANGE
         String accountID = "1";

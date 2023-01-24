@@ -36,7 +36,7 @@ public class AuthorizationAvroProducer {
         }
 
         ListenableFuture<SendResult<String, Authorization>> future =
-                (ListenableFuture<SendResult<String, Authorization>>) authorizationKafkaTemplate.send(
+                authorizationKafkaTemplate.send(
                         sourceTopic,
                         authorization.getAccountId().toString(),
                         authorization
